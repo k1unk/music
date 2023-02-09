@@ -1,0 +1,30 @@
+:root {
+  --backgroundColor: #e4ebf3;
+  --fontColor: #000000;
+  --fontColor2: #09d3ac;
+  --fontColor3: #5d5d5d;
+  --boxShadow: inset rgba(0, 0, 0, 0.6) 1px 1px 1px 1px,
+  inset rgba(0,0,0,0.6) -1px -1px 1px 1px;
+  --btnHover: #9cabbe;
+
+  --menuSeparator: rgba(0, 0, 0, 0.2);
+
+  --trackHoverBackground: #ddddec;
+  --playerBackground: #cddbe8;
+}
+
+
+[data-theme="Dark"] {
+  --backgroundColor: #18191a;
+  --fontColor: #f5f6f7;
+  --fontColor2: #09d3ac;
+  --fontColor3: #a9a9a9;
+  --boxShadow: inset rgba(255, 255, 255, 0.6) 1px 1px 1px 1px,
+  inset rgba(210,210,238,0.4) -1px -1px 1px 1px;
+  --btnHover: #252525;
+
+  --menuSeparator: rgba(255, 255, 255, 0.2);
+
+  --trackHoverBackground: #525262;
+  --playerBackground: #484848;
+}

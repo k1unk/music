@@ -1,0 +1,34 @@
+@import 'colors';
+@import '../UI/UI';
+@import "../Menu/menu";
+@import '../Header/header';
+@import '../Chart/chart';
+@import "../Favourite/favourite";
+@import "../Playlists/playlists";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial', sans-serif;
+  overflow-y: scroll;
+}
+
+html, body, #root, .app {
+  background: var(--backgroundColor);
+  color: var(--fontColor);
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  margin: auto;
+  max-width: 1200px;
+
+  > .content {
+    flex-grow: 1;
+  }
+}

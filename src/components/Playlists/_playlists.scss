@@ -1,0 +1,13 @@
+.playlist-page {
+  display: flex;
+  padding: 10px;
+
+  .playlist-page-content {
+    margin-right: 25px;
+    min-width: 450px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}

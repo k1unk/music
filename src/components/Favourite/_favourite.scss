@@ -1,0 +1,25 @@
+.recent-page {
+  display: flex;
+  padding: 10px;
+
+  .recent-tracks {
+    margin-right: 25px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}
+
+.favourite-page {
+  display: flex;
+  padding: 10px;
+
+  .favourite-tracks {
+    margin-right: 25px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}

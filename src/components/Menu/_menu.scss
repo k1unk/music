@@ -1,0 +1,92 @@
+.menu-sidebar {
+  position: sticky;
+  top: 0px;
+  overflow-y: scroll;
+
+  height: 100vh;
+  min-width: 220px;
+
+  background-color: var(--backgroundColor);
+  border-right: 1px solid var(--menuSeparator);
+
+  .menu-content {
+    margin: 40px auto 30px 20px;
+  }
+}
+
+.menu-block {
+  margin-bottom: 30px;
+  list-style: none;
+
+  &:last-child {
+    margin: auto;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    padding: 5px 0;
+
+    &_direction-horizontal {
+      display: flex;
+
+      p {
+        margin-right: 15px;
+      }
+
+      .add-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+
+        svg {
+          fill: var(--fontColor);
+        }
+      }
+    }
+  }
+
+  .creating-playlist {
+    display: flex;
+    padding: 5px 0;
+
+    svg {
+      height: 24px;
+      width: 24px;
+      margin-right: 10px;
+    }
+
+    input {
+      max-width: 150px;
+    }
+  }
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+
+  svg {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    fill: var(--fontColor);
+  }
+
+  a {
+    text-decoration: none;
+    margin-top: 2px;
+    color: var(--fontColor);
+  }
+
+  &_selected {
+    svg {
+      fill: var(--fontColor2);
+    }
+
+    a {
+      color: var(--fontColor2);
+    }
+  }
+}
