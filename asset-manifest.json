@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/music/static/css/main.a9baa373.css",
+    "main.js": "/music/static/js/main.bf0813dd.js",
+    "static/media/add-icon.svg": "/music/static/media/add-icon.defd519fbc61f94f24089a07e9fe3512.svg",
+    "static/media/recent-icon.svg": "/music/static/media/recent-icon.d06596a809ed631c5f357e4af305dbc2.svg",
+    "static/media/favourite-icon.svg": "/music/static/media/favourite-icon.7fee54a0b9140da9797266ad07af307e.svg",
+    "static/media/favourite.svg": "/music/static/media/favourite.7fee54a0b9140da9797266ad07af307e.svg",
+    "static/media/remove-icon.svg": "/music/static/media/remove-icon.beac5cc7543dbc83fdbf7f09432f1c4a.svg",
+    "static/media/search.svg": "/music/static/media/search.76f22f3cd8c912469e157b2c10409e0f.svg",
+    "index.html": "/music/index.html",
+    "static/media/more-icon.svg": "/music/static/media/more-icon.d3fb3a3a4e2cce5f50d2c3ee7121a393.svg",
+    "static/media/playlist-icon.svg": "/music/static/media/playlist-icon.48f20bf1eb00d02fde49d07c05752295.svg",
+    "static/media/volume-plus-icon.svg": "/music/static/media/volume-plus-icon.8aa208542d0e9bb2bb7c2820907ea15d.svg",
+    "static/media/arrow-down-icon.svg": "/music/static/media/arrow-down-icon.4843e24b06af749c41002d41c0af4747.svg",
+    "static/media/volume-minus-icon.svg": "/music/static/media/volume-minus-icon.d23596ed3d02282d5511ee8ce8182255.svg",
+    "static/media/album-icon.svg": "/music/static/media/album-icon.086513659c038f4b27d49b3fe0bff479.svg",
+    "static/media/prev.svg": "/music/static/media/prev.e9d708b65ea5d6204421cb5774443973.svg",
+    "static/media/next.svg": "/music/static/media/next.b34327e092afb11727f444c402d590dc.svg",
+    "static/media/track-icon.svg": "/music/static/media/track-icon.69d3c596abd87aff63a625ec94c19b89.svg",
+    "static/media/play.svg": "/music/static/media/play.f275b421fab5c6ad1ac709a6a49e1dbd.svg",
+    "static/media/pause.svg": "/music/static/media/pause.b55c62e2336e7306ed8ac52c0f547039.svg",
+    "main.a9baa373.css.map": "/music/static/css/main.a9baa373.css.map",
+    "main.bf0813dd.js.map": "/music/static/js/main.bf0813dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9baa373.css",
+    "static/js/main.bf0813dd.js"
+  ]
+}
